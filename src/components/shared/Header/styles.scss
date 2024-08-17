@@ -1,0 +1,21 @@
+.header {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 24px;
+  }
+
+  .menu {
+    margin-left: auto;
+  }
+
+  @media (max-width: 767px) {
+    .menu,
+    .social-list {
+      display: none;
+    }
+  }
+}

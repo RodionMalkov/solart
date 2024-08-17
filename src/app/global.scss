@@ -1,0 +1,21 @@
+@import "~normalize.css";
+
+:root {
+  --primary-blue: #1f99db;
+  --primary-black: #000000;
+  --primary-white: #ffffff;
+  --primary-light-blue: #edf9fa;
+}
+
+.page {
+  background-color: var(--primary-light-blue);
+
+  &__wrapper {
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    grid-gap: 24px;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-white);
+  }
+}

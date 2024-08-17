@@ -1,0 +1,18 @@
+.menu {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__link {
+    font-size: 24px;
+    line-height: 130%;
+    color: var(--primary-black);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--primary-blue);
+    }
+  }
+}
