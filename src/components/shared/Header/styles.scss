@@ -3,9 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    gap: 24px;
+    padding-top: var(--gap);
+    padding-bottom: var(--gap);
+    gap: var(--gap);
   }
 
   .menu {

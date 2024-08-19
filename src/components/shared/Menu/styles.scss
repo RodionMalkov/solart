@@ -2,7 +2,7 @@
   &__list {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: var(--gap);
   }
 
   &__link {

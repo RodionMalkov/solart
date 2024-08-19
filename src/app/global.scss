@@ -1,10 +1,19 @@
 @import "~normalize.css";
+@import "animate.css";
 
 :root {
   --primary-blue: #1f99db;
   --primary-black: #000000;
   --primary-white: #ffffff;
   --primary-light-blue: #edf9fa;
+
+  --gap-small: 12px;
+  --gap: 24px;
+  --gap-big: 48px;
+
+  --radius: 12px;
+
+  --transition: 500ms ease-in-out;
 }
 
 .page {
@@ -13,9 +22,9 @@
   &__wrapper {
     display: grid;
     grid-template-rows: max-content 1fr max-content;
-    grid-gap: 24px;
+    grid-gap: var(--gap-small);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--primary-white);
   }
 }

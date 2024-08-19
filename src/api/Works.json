@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Object 1",
+    "description": "Description 1",
+    "image": "https://placehold.co/300x300.png"
+  },
+  {
+    "id": 2,
+    "title": "Object 2",
+    "description": "Description 2",
+    "image": "https://placehold.co/400x300.png"
+  },
+  {
+    "id": 3,
+    "title": "Object 3",
+    "description": "Description 3",
+    "image": "https://placehold.co/300x400.png"
+  },
+  {
+    "id": 4,
+    "title": "Object 4",
+    "description": "Description 4",
+    "image": "https://placehold.co/800x600.png"
+  },
+  {
+    "id": 5,
+    "title": "Object 5",
+    "description": "Description 5",
+    "image": "https://placehold.co/300x300.png"
+  },
+  {
+    "id": 6,
+    "title": "Object 6",
+    "description": "Description 6",
+    "image": "https://placehold.co/400x300.png"
+  },
+  {
+    "id": 7,
+    "title": "Object 7",
+    "description": "Description 7",
+    "image": "https://placehold.co/300x300.png"
+  },
+  {
+    "id": 8,
+    "title": "Object 8",
+    "description": "Description 8",
+    "image": "https://placehold.co/400x300.png"
+  },
+  {
+    "id": 9,
+    "title": "Object 9",
+    "description": "Description 9",
+    "image": "https://placehold.co/300x400.png"
+  },
+  {
+    "id": 10,
+    "title": "Object 10",
+    "description": "Description 10",
+    "image": "https://placehold.co/300x400.png"
+  },
+  {
+    "id": 11,
+    "title": "Object 11",
+    "description": "Description 11",
+    "image": "https://placehold.co/300x400.png"
+  }
+]

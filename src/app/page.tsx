@@ -1,6 +1,9 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { WorkList } from "@/components/shared/WorkList/WorkList";
 
 export default function Home() {
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <WorkList />
+    </>
+  );
 }
