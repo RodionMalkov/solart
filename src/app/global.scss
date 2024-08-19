@@ -19,12 +19,14 @@
 .page {
   background-color: var(--primary-light-blue);
 
-  &__wrapper {
-    display: grid;
-    grid-template-rows: max-content 1fr max-content;
-    grid-gap: var(--gap-small);
-    width: 100%;
-    min-height: 100vh;
-    background-color: var(--primary-white);
-  }
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+  grid-gap: var(--gap-small);
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--primary-white);
+}
+
+.content {
+  margin-top: 140px;
 }

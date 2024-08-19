@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.scss";
+import "react-responsive-modal/styles.css";
+import { Modal } from "react-responsive-modal";
 
 interface Props {
   className?: string;
@@ -16,11 +18,20 @@ interface WorkCard {
 export const WorkCard: React.FC<Props> = ({ className, work }) => {
   const { id, title, description, image } = work;
 
+  const [open, setOpen] = useState(false);
+
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
+
   return (
-    <article className={`work-card ${className || ""}`}>
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </article>
+    <>
+      <article onClick={onOpenModal} className={`work-card ${className || ""}`}>
+        <img src={image} alt={title} />
+      </article>
+      <Modal open={open} onClose={onCloseModal} center>
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </Modal>
+    </>
   );
 };

@@ -1,13 +1,21 @@
 .work-list {
   &__wrapper {
     display: flex;
-    gap: 12px;
+    gap: var(--gap);
+
+    @media (max-width: 768px) {
+      gap: var(--gap-small);
+    }
   }
 
   &__column {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: var(--gap);
+
+    @media (max-width: 768px) {
+      gap: var(--gap-small);
+    }
 
     img {
       width: 100%;
